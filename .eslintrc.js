@@ -1,6 +1,6 @@
 module.exports = {
-    root: true,
-    extends: [
-        '@codeconv/base'
-    ]
+  root: true,
+  extends: [
+    '@codeconv/base',
+  ],
 }

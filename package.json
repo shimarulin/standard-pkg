@@ -1,41 +1,51 @@
 {
   "name": "standard-pkg",
+  "version": "0.1.0",
   "description": "standard-pkg project",
   "license": "MIT",
-  "scripts": {
-    "lint": "eslint --ext js,md .",
-    "release": ""
-  },
-  "version": "0.1.0",
-  "homepage": "https://github.com/shimarulin/standard-pkg#readme",
-  "bugs": {
-    "url": "https://github.com/shimarulin/standard-pkg/issues"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/shimarulin/standard-pkg.git"
   },
+  "bugs": {
+    "url": "https://github.com/shimarulin/standard-pkg/issues"
+  },
+  "homepage": "https://github.com/shimarulin/standard-pkg#readme",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "release": ""
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged",
-      "post-commit": "git update-index -g"
+      "post-commit": "git update-index -g",
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
+    "**/*.json": [
+      "prettier --write"
+    ],
+    "**/*.md": [
+      "prettier --write",
+      "eslint --fix"
+    ],
     "**/*.{js,ts}": [
       "eslint --fix"
     ],
     "**/package.json": [
       "prettier --write",
       "format-package --write"
-    ],
-    "**/*.md": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "**/*.json": [
-      "prettier --write"
     ]
+  },
+  "devDependencies": {
+    "@codeconv/eslint-config-base": "^0.6.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "format-package": "^5.2.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.10",
+    "prettier": "^2.0.2"
   }
 }
