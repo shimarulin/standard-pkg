@@ -1,0 +1,41 @@
+{
+  "name": "standard-pkg",
+  "description": "standard-pkg project",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "release": ""
+  },
+  "version": "0.1.0",
+  "homepage": "https://github.com/shimarulin/standard-pkg#readme",
+  "bugs": {
+    "url": "https://github.com/shimarulin/standard-pkg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shimarulin/standard-pkg.git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged",
+      "post-commit": "git update-index -g"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "eslint --fix"
+    ],
+    "**/package.json": [
+      "prettier --write",
+      "format-package --write"
+    ],
+    "**/*.md": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "**/*.json": [
+      "prettier --write"
+    ]
+  }
+}
