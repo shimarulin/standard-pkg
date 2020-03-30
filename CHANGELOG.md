@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/shimarulin/standard-pkg/compare/v1.0.1...v1.0.2) (2020-03-30)
+
+
+### Bug Fixes
+
+* add Changelog header ([bc2e60a](https://github.com/shimarulin/standard-pkg/commit/bc2e60aa92f547b911bc6eefa6bc3183ba677a26))
+
 ### [1.0.1](https://github.com/shimarulin/standard-pkg/compare/v1.0.0...v1.0.1) (2020-03-30)
 
 
