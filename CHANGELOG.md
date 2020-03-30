@@ -1,3 +1,17 @@
+
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+
+## [1.3.0](https://github.com/shimarulin/standard-pkg/compare/v1.2.0...v1.3.0) (2020-03-30)
+
+
+### Features
+
+* changelog regenerated ([f3b2e24](https://github.com/shimarulin/standard-pkg/commit-example/f3b2e2489cf545f72c33d1a7a92a159023a09e92))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
@@ -46,6 +60,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * add semantic-release ([6f7961e](https://github.com/shimarulin/standard-pkg/commit/6f7961e39571ca7c44c0034bd95ccea68ad57152))
 * setup release ([19a8a2e](https://github.com/shimarulin/standard-pkg/commit/19a8a2ecbef733142e9418ece91b4661fed1ea60))
-
-
-
