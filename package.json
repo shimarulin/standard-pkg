@@ -12,6 +12,7 @@
   },
   "homepage": "https://github.com/shimarulin/standard-pkg#readme",
   "scripts": {
+    "ch": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "lint": "eslint --ext js,md .",
     "release": "semantic-release --no-ci"
   },
@@ -37,6 +38,9 @@
       "prettier --write",
       "format-package --write"
     ]
+  },
+  "dependencies": {
+    "conventional-changelog-cli": "^2.0.31"
   },
   "devDependencies": {
     "@codeconv/eslint-config-base": "^0.6.0",
