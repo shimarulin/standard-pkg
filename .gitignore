@@ -1,6 +1,7 @@
 ### NodeJS
 # Logs
 *.log
+.npmrc
 
 # Dependency directories
 node_modules/
