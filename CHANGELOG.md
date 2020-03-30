@@ -8,14 +8,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* changelog header ([5f63e28](https://github.com/shimarulin/standard-pkg/commit-example/5f63e28756de744c35aa95e6f740df66ac943089))
+* changelog header ([5f63e28](https://github.com/shimarulin/standard-pkg/commit/5f63e28756de744c35aa95e6f740df66ac943089))
 
 ## [1.3.0](https://github.com/shimarulin/standard-pkg/compare/v1.2.0...v1.3.0) (2020-03-30)
 
 
 ### Features
 
-* changelog regenerated ([f3b2e24](https://github.com/shimarulin/standard-pkg/commit-example/f3b2e2489cf545f72c33d1a7a92a159023a09e92))
+* changelog regenerated ([f3b2e24](https://github.com/shimarulin/standard-pkg/commit/f3b2e2489cf545f72c33d1a7a92a159023a09e92))
 
 ## [1.2.0](https://github.com/shimarulin/standard-pkg/compare/v1.1.0...v1.2.0) (2020-03-30)
 
