@@ -3,6 +3,7 @@
   "version": "1.3.2",
   "description": "standard-pkg project",
   "license": "MIT",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:shimarulin/standard-pkg.git"
