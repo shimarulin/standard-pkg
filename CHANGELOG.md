@@ -12,11 +12,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * changelog regenerated ([f3b2e24](https://github.com/shimarulin/standard-pkg/commit-example/f3b2e2489cf545f72c33d1a7a92a159023a09e92))
 
-# Change Log
-
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
 ## [1.2.0](https://github.com/shimarulin/standard-pkg/compare/v1.1.0...v1.2.0) (2020-03-30)
 
 

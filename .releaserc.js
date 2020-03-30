@@ -7,12 +7,10 @@ const conventionalChangelogOptions = {
   },
 }
 const changelogTitle =
-`
-# Change Log
+`# Change Log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-`
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.`
 
 module.exports = {
   branches: [
