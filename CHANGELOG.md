@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/shimarulin/standard-pkg/compare/v1.0.2...v1.1.0) (2020-03-30)
+
+
+### Features
+
+* test url format ([2618766](https://github.com/shimarulin/standard-pkg/commit-example/26187667371cfcd69b6804ccaaeeb56f3b1e656e))
+
 ### [1.0.2](https://github.com/shimarulin/standard-pkg/compare/v1.0.1...v1.0.2) (2020-03-30)
 
 
