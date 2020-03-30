@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.3.4](https://github.com/shimarulin/standard-pkg/compare/v1.3.3...v1.3.4) (2020-03-30)
+
+
+### Bug Fixes
+
+* remove private ([684473b](https://github.com/shimarulin/standard-pkg/commit/684473b847e2a128dfaffad1c42d69984abd33f1))
+
 ### [1.3.3](https://github.com/shimarulin/standard-pkg/compare/v1.3.2...v1.3.3) (2020-03-30)
 
 
