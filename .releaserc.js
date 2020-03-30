@@ -3,6 +3,7 @@ const conventionalChangelogOptions = {
   // https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.1.0/README.md
   presetConfig: {
     header: 'Changelog',
+    commitUrlFormat: '{{host}}/{{owner}}/{{repository}}/commit-example/{{hash}}',
   },
 }
 
