@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.3.2](https://github.com/shimarulin/standard-pkg/compare/v1.3.1...v1.3.2) (2020-03-30)
+
+
+### Bug Fixes
+
+* changelog links ([696a320](https://github.com/shimarulin/standard-pkg/commit/696a32026caf899d8c0159b7fea4644d1e4ac559))
+
 ### [1.3.1](https://github.com/shimarulin/standard-pkg/compare/v1.3.0...v1.3.1) (2020-03-30)
 
 
